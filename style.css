@@ -1,0 +1,154 @@
+body
+{
+  color: #EFDAB9;
+  background-color: #343233;
+  font-family: 'Spectral SC', sans-serif;
+  /*background-image:url(/home/ayoub/Desktop/HTML/MONCV/img/fond.jpg);*/
+
+}
+
+li
+{
+
+  list-style-type: none;
+
+}
+
+.bigToSmall
+{
+    width: 100px;
+}
+
+.header
+{
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #EFDAB9;
+    font-family: 'Spectral SC', sans-serif;
+
+}
+
+.header ul li /*Detruit la structure html*/
+{
+  display: inline-block;
+  padding-right: 35px;
+
+}
+
+.salutAyoub
+{
+    font-size: 25px;
+     /* On a indiqué une largeur (obligatoire) */
+    margin-left: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    margin-right: auto;
+    text-align: center; /*Aligne le text avec left,right ou center*/
+    padding: 12px; /*Gère l'espace d'un élément a aussi utilisé avec padding-top ...etc*/
+    margin-bottom: 20px;
+
+}
+
+.commencons
+{
+    font-size: 25px;
+    width: 600px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a, a:hover, a:visited, a:active
+{
+	color:#DDA131;
+	text-decoration:none;
+
+}
+
+.experience, .formation
+{
+  font-size: 25px;
+  text-align: center;
+}
+
+.partie1 {
+    float: left;
+    width:50%;
+}
+.partie2 {
+    padding-top: 1px;
+    margin-left:50%;
+}
+
+h3
+{
+    font-size: 40px;
+    color: #EFDAB9;
+}
+
+section{
+  padding-bottom: 200px;
+}
+
+#photo{
+    float: left;
+    width:50%;
+}
+#dev {
+    margin-left:50%;
+}
+
+#entreprise
+{
+  color:#DDA131;
+  font-weight: bolder;
+  opacity: 0.7;
+
+}
+
+#mission
+{
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+#entreprise, #mission
+{
+  margin: auto;
+}
+
+.efumeur{
+  margin-bottom: 100px;
+}
+
+.manor{
+  margin-top: 100px;
+}
+
+.espace{
+  margin-bottom: 52px;
+}
+
+
+
+.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+
+.gallery:hover {
+      border: 1px solid #777;
+  }
+
+.gallery img {
+      width: 100%;
+      height: auto;
+  }
+
+.desc {
+      padding: 15px;
+      text-align: center;
+  }
