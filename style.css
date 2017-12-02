@@ -1,190 +1,64 @@
-body
-{
+body{
   color: #EFDAB9;
   background-color: #343233;
-  font-family: 'Spectral SC', sans-serif;
-  /*background-image:url(/home/ayoub/Desktop/HTML/MONCV/img/fond.jpg);*/
-
+  font-family: 'Spectral SC', serif;
+  font-weight: bold;
 }
 
-li
-{
-
+li{
   list-style-type: none;
 
 }
 
-.bigToSmall
-{
-    width: 100px;
-}
-
-.header
-{
+header{
     text-decoration: none;
-    font-size: 25px;
+    font-size:35px;
     text-align: center;
     font-weight: bold;
     color: #EFDAB9;
-    font-family: 'Spectral SC', sans-serif;
 
 }
 
-.header ul li /*Detruit la structure html*/
-{
-  display: inline-block;
-  padding-right: 35px;
-
-}
-
-.salutAyoub
-{
-    font-size: 25px;
-     /* On a indiqué une largeur (obligatoire) */
-    margin-left: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
-    margin-right: auto;
-    text-align: center; /*Aligne le text avec left,right ou center*/
-    padding: 12px; /*Gère l'espace d'un élément a aussi utilisé avec padding-top ...etc*/
-    margin-bottom: 20px;
-
-}
-
-.commencons, .contact
-{
-    font-size: 25px;
-    width: 600px;
-    text-align: center;
-    font-weight: bold;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-a, a:hover, a:visited, a:active
-{
+a, a:hover, a:visited, a:active{
 	color:#DDA131;
 	text-decoration:none;
 
 }
 
-.experience, .formation
-{
-  font-size: 25px;
-  text-align: center;
-}
-
-.partie1 {
-    float: left;
-    width:50%;
-}
-.partie2 {
-    padding-top: 1px;
-    margin-left:50%;
-}
-
-h3
-{
-    font-size: 40px;
+h3{
+    font-size: 50px;
     color: #EFDAB9;
     text-align: center;
     padding-bottom: 42px;
 }
 
 section{
-  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
-#photo{
-    float: left;
-    width:50%;
-}
-#dev {
-    margin-left:50%;
+p{
+  font-size: 20px;
 }
 
-#entreprise
-{
-  color:#DDA131;
-  font-weight: bolder;
-  opacity: 0.7;
-
+#titrejaune{
+  color: #DDA131;
 }
 
-#mission
-{
-  opacity: 0.7;
-  margin-top: 20px;
+#bienvenue{
+  font-size: 30px
+  padding-top: 100px;
 }
 
-#entreprise, #mission
-{
-  margin: auto;
-}
+.parallax {
+    /* The image used */
+    background-image: url("img/mariage.jpg");
 
-.efumeur{
-  margin-bottom: 100px;
-}
+    /* Set a specific height */
+    height: 300px;
 
-.manor{
-  margin-top: 100px;
-}
-
-.vitam{
-  margin-bottom: 100px;
-}
-
-.espace{
-  margin-bottom: 52px;
-}
-
-#vert{
-  padding-top: 48px;
-}
-
-.gallery {
-      margin: 5px;
-      border: 1px solid #777;
-      float: left;
-      width: 300px;
-
-  }
-
-.gallery:hover {
-      border: 1px solid #EFDAB9;
-
-  }
-
-.gallery img {
-      width: 100%;
-      height: auto;
-
-  }
-
-.desc {
-      padding: 15px;
-      text-align: center;
-  }
-
-#portfolio{
-  margin: 0 auto;
-  width: 1248px;
-  clear: both;
-}
-
-.contact{
-    padding-top: 150px;
-    font-size: 45px;
-}
-
-footer
-{
-  text-align: center;
-  background-color: ccc;
-}
-
-#mail{
-  margin-top: inherit;
-}
-
-#tel{
-  margin-bottom: inherit;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
