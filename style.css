@@ -5,14 +5,9 @@ body{
   font-weight: bold;
 }
 
-li{
-  list-style-type: none;
-
-}
-
 header{
     text-decoration: none;
-    font-size:35px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: #EFDAB9;
@@ -49,16 +44,59 @@ p{
   padding-top: 100px;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("img/mariage.jpg");
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transition: translate(-50%,-50%);
 
-    /* Set a specific height */
-    height: 300px;
+}
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+ul li{
+  list-style: none;
+  margin: 0 15px;
+
+}
+
+ul li a{
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 60px;
+  background: #333;
+  border-radius: 50%;
+  font-size: 100px;
+  color: #666;
+  transition: .5s;
+
+}
+
+ul li a:before{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #DDA131;
+  transform: scale(.9);
+  z-index: -1;
+
+}
+
+ul li a:hover:before{
+  transform: scale(.9);
+  box-shadow: 0 0 100px #DDA131;
+
+}
+
+ul li a:hover{
+  color: #ffee10;
+  box-shadow: 0 0 5px #DDA131;
+  text-shadow: 0 0 5px #DDA131;
 }
