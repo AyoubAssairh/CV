@@ -1,11 +1,8 @@
 $(document).ready(function(){
 
-<<<<<<< refs/remotes/origin/master
-=======
-  
+
 
   // ScrollReveal.js
->>>>>>> -Suppression de la version 1 du header, ajout de la seconde version
   ScrollReveal().reveal('.reveal',
   {
     reset: true,
@@ -13,8 +10,6 @@ $(document).ready(function(){
     duration: 3000,
   });
 
-<<<<<<< refs/remotes/origin/master
-=======
   // Séléctionne toutes les id
 $('a[href*="#"]')
   // Retire tous les liens qui ne pointe nulle part
@@ -54,5 +49,4 @@ $('a[href*="#"]')
 
 
 
->>>>>>> -Suppression de la version 1 du header, ajout de la seconde version
 });
